@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400&subset=latin-ext");
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -18,10 +17,14 @@ body,
 .main,
 .box,
 .random-btn {
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 .quote {
@@ -48,18 +51,24 @@ body,
   font-size: 1rem;
   margin-bottom: 30px;
   border: 1px solid #ffffff;
-  &:hover {
-    box-shadow: 0 0 2px 2px #0e90ec;
-  }
   cursor: pointer;
 }
 
+.trigger:hover,
+.tweet:hover {
+  box-shadow: 0 0 2px 2px #0e90ec;
+}
+
 .tweet {
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 .fa-twitter {
   margin-right: 10px;
 }
+/*# sourceMappingURL=style.css.map */
