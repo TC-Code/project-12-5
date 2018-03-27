@@ -12,6 +12,8 @@ $(document).ready(function() {
   function createTweet(input) {
     var data = input[0];
 
+    if (!input.length) throw new Error(alert("Not enough elements in array!"));
+
     var quoteText = $(data.content)
       .text()
       .trim();
