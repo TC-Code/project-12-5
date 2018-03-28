@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400&subset=latin-ext");
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body, .trigger { background-color: #59adeb; font-family: "Roboto", sans-serif; color: #ffffff; border: 0; outline: 0; }
+
+.main, .box, .random-btn { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; }
+
+.quote { text-align: center; margin: 0 50px; }
+
+.fa-twitter, .tweet { color: #ffffff; text-decoration: none; }
+
+.headline, .author { margin: 20px 0 100px 0; }
+
+.trigger, .tweet { text-align: center; width: 250px; height: 30px; font-size: 1rem; margin-bottom: 30px; border: 1px solid #ffffff; cursor: pointer; }
+
+.trigger:hover, .tweet:hover { box-shadow: 0 0 2px 2px #0e90ec; }
+
+.tweet { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; }
+
+.fa-twitter { margin-right: 10px; }
